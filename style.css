@@ -1,0 +1,125 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body  {
+  background-color: 'grey';
+  font-family: 'Montserrat', sans-serif;
+  color: 'black';
+  background-color: #f4aa57;
+  font-size: '12px';
+  line-height: auto;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3  {
+  color: #4d5472;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1  {
+  font-size: 32px;
+}
+
+h2  {
+  font-size: 24px;
+}
+
+h3  {
+  font-size: 16px;
+}
+
+a {
+  color: #6067dd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4af2a1;
+  text-decoration: none;
+}
+
+.container  {
+  width: 100vw;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  vertical-align: middle;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.6);
+  /* margin: 16px; */
+  text-align: center;
+  margin-top: 30px;
+  /* margin-bottom: 60px; */
+  /* max-width: 600px; */
+  width: 80%;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.top-card {
+  padding-bottom: 40px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.bottom_icon {
+  color: #1a73e8;
+  font-size: 40px;
+}
+
+.bottom_icon:hover {
+  color: #9654bc;
+}
+
+#profile_photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #1a73e8;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  margin-top: 100px;
+  font-size: 16px;
+  box-shadow: 5px 5px 15px #d0d0d0;
+}
+
+.button:hover {
+  background-color: #4af2a1;
+  color: #1a73e8;
+}
+
